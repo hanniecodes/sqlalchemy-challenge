@@ -41,9 +41,9 @@ def welcome():
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs <br/>"
-         f"For below add any date you like to the end of the URL in this format<b>'/2016-08-23'</b>starting from 2010 <br/>"
+         f"For below add any date you like to the end of the URL in this format<b>'/api/v1.0/2016-08-23'</b>starting from 2010 <br/>"
         f"/api/v1.0/<start><br/>"
-        f"For below add any start and date you like to the end of the URL in this format <b>'/2016-08-23/2017-08-23'</b> starting from 2010 <br/>"
+        f"For below add any start and date you like to the end of the URL in this format <b>'/api/v1.0/2016-08-23/2017-08-23'</b> starting from 2010 <br/>"
         f"/api/v1.0/<start>/<end><br/>"
     )
 #### THis route doesn't work!
